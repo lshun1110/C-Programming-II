@@ -30,5 +30,8 @@
     <ClCompile Include="pa09-12.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pa09-17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

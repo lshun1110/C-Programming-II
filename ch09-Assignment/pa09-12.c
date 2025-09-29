@@ -15,17 +15,17 @@
 #include <string.h>
 #include <ctype.h>
 
-void Assignment0906();
+void Assignment0912();
 void strip_newline(char* s);
 void rotate_preserve_spaces(char* s, int k);
 
 int main()
 {
-    Assignment0906();
+    Assignment0912();
     return 0;
 }
 
-void Assignment0906()
+void Assignment0912()
 {
     char str[256] = { 0 };
     int k = 0;
