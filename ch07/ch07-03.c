@@ -1,7 +1,7 @@
 /*
 	학번 : 202511227
 	이름 : 이승훈
-	프로그램 명 : c언어 ch07 - in class lab 수업 시간 작성 코드 / in class lab 있긴함
+	프로그램 명 : c언어 ch07 - in class lab 수업 시간 작성 코드 / in class lab 문제이기도 함.
 	날짜 : 2025.09.10
 */
 
