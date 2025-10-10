@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 7번
+    프로그램 명 : c언어 ch-07 Assignment 과제 7번
     날짜 : 2025.09.14
 */
 
@@ -36,6 +36,12 @@ void Assignment0707()
 	return;
 }
 
+// 기능명 : 배열을 특정 수로 채워넣기
+// 내용: 배열, 배열 크기, 복사할 값을 입력받아 배열을 채워넣음
+// 입력 : 배열, 배열의 크기(정수), 복사할 값(정수)
+// 출력 : x
+//오류 : x
+
 void fill_array(int* arr, int size, int copy_value)
 {
 	for (int i = 0; i < size; i++)
@@ -43,6 +49,12 @@ void fill_array(int* arr, int size, int copy_value)
 		arr[i] = copy_value;
 	}
 }
+
+// 기능명 : 배열을 출력하기
+// 내용: 배열, 배열 크기을 입력받아 출력함.
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 배열 전체(정수)
+//오류 : x
 
 void print_array(int* arr, int size)
 {

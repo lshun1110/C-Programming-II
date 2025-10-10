@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 3번
+    프로그램 명 : c언어 ch-07 Assignment 과제 3번
     날짜 : 2025.09.14
 */
 
@@ -33,6 +33,12 @@ void Assignment0703()
 	return;
 }
 
+// 기능명 : 배열에서의 최대값 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최댓값을 찾은 후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최댓값
+//오류 : x
+
 int SearchMax(int* arr, int size)
 {
 	int max = arr[0];
@@ -44,6 +50,12 @@ int SearchMax(int* arr, int size)
 	}
 	return max;
 }
+
+// 기능명 : 배열에서의 최솟값 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최솟값을 찾은 후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최솟값
+//오류 : x
 
 int SearchMin(int* arr, int size)
 {

@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 1번
+    프로그램 명 : c언어 ch-07 Assignment 과제 1번
     날짜 : 2025.09.14
 */
 
@@ -39,6 +39,12 @@ void Assignment0701()
 	print_AS(arr, size);
 }
 
+// 기능명 : 등차 수열 계산
+// 내용: 첫 째항과 공차를 받아 등차수열을 계산 후 배열에 저장하는 함수
+// 입력 : 배열, 공차(정수), 배열 크기(정수) - 이미 배열안 첫째항 들어있음.
+// 출력 : x
+//오류 : x
+
 void Calculate_AS(int arr[], int d, int size)
 {
 	for (int i = 1; i < size; i++)
@@ -47,6 +53,12 @@ void Calculate_AS(int arr[], int d, int size)
 	}
 	return;
 }
+
+// 기능명 : 등차 수열 출력
+// 내용: 배열을 출력하는 함수
+// 입력 : 배열, 배열 크기(정수)
+// 출력 : 배열 (등차 수열)
+//오류 : x
 
 void print_AS(int arr[], int size)
 {

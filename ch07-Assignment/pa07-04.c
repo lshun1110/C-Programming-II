@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 4번
+    프로그램 명 : c언어 ch-07 Assignment 과제 4번
     날짜 : 2025.09.14
 */
 
@@ -34,6 +34,12 @@ void Assignment0704()
 	return;
 }
 
+// 기능명 : 배열에서의 최대값 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최댓값을 찾은후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최댓값
+//오류 : x
+
 int SearchMax_value(int* arr, int size)
 {
 	int max = arr[0];
@@ -45,6 +51,12 @@ int SearchMax_value(int* arr, int size)
 	}
 	return max;
 }
+
+// 기능명 : 배열에서의 최솟값 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최솟값을 찾은 후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최솟값
+//오류 : x
 
 int SearchMin_value(int* arr, int size)
 {
@@ -58,6 +70,12 @@ int SearchMin_value(int* arr, int size)
 	return min;
 }
 
+// 기능명 : 배열에서의 최대값의 인덱스 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최댓값의 인덱스를 찾은후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최댓값의 인덱스
+//오류 : x
+
 int SearchMax_index(int* arr, int size)
 {
 	int index = 0;
@@ -68,6 +86,12 @@ int SearchMax_index(int* arr, int size)
 	}
 	return index;
 }
+
+// 기능명 : 배열에서의 최솟값의 인덱스 찾기
+// 내용: 배열과 그 크기를 입력받아 순회로 최솟값의 인덱스를 찾은후 반환
+// 입력 : 배열, 배열의 크기(정수)
+// 출력 : 최솟값의 인덱스
+//오류 : x
 
 int SearchMin_index(int* arr, int size)
 {

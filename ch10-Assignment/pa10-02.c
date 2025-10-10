@@ -46,6 +46,12 @@ void Assignment1002()
 	print_login(p);
 }
 
+// 기능명 : 아이디, 패스워드를 소문자로 저장하는 함수
+// 내용 : 구조체 안에 아이디 패스워드를 입력받아 소문자로 변환함
+// 입력 : 구조체 포인터
+// 출력 : x
+// 오류 : x
+
 void make_lower(LG *p)
 {
 	for (int i = 0; i < strlen(p->ID); i++)
@@ -57,6 +63,12 @@ void make_lower(LG *p)
 		p->Password[i] = tolower(p->Password[i]);
 	}
 }
+
+// 기능명 : 아이디, 패스워드 출력 함수
+// 내용 : 구조체 안에 아이디 패스워드를 입력받아 출력함
+// 입력 : 구조체 포인터
+// 출력 : 구조체 -> 아이디, 패스워드
+// 오류 : x
 
 void print_login(LG* p)
 {

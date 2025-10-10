@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 12번
+    프로그램 명 : c언어 ch-09 Assignment 과제 12번
     날짜 : 2025.09.24
 */
 
@@ -55,12 +55,18 @@ void Assignment0912()
     }
 }
 
+// 개행 제거
 void strip_newline(char* s)
 {
     size_t pos = strcspn(s, "\r\n");
     s[pos] = '\0';
 }
 
+// 기능명 : 문자열을 회전시키는 함수
+// 내용 : 문자열과 이동할 문자 수를 입력 받은 뒤 그 문자수 만큼 회전 -> 뒤에서 앞으로 보냄
+// 입력 : 문자열, 이동할 문자 수 (정수)
+// 출력 : x
+// 오류 : x
 
 void rotate_preserve_spaces(char* s, int k)
 {

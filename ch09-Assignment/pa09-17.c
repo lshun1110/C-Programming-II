@@ -1,7 +1,7 @@
 /*
     학번 : 202511227
     이름 : 이승훈
-    프로그램 명 : c언어 Assignment 과제 17번
+    프로그램 명 : c언어 ch-09 Assignment 과제 17번
     날짜 : 2025.09.24
 */
 
@@ -112,6 +112,12 @@ void flush_line()
     while ((ch = getchar()) != '\n' && ch != EOF){ }
 }
 
+// 기능명 : 제목 읽기
+// 내용 : 표준 입력에서 최대 40글자 제목을 읽고 좌우 공백 제거 후 비어 있지 않으면 성공 처리
+// 입력 : 문자열과 그 크기
+// 출력 : 성공(1) / 실패(0)
+// 오류 : x
+
 int read_title(char* dst, size_t cap)
 {
     int r = scanf(" %40[^\n]", dst); 
@@ -146,6 +152,12 @@ int read_title(char* dst, size_t cap)
     return (len > 0) ? 1 : 0;
 }
 
+// 기능명 : 목록 출력
+// 내용 : 저장된 제목들 중 앞에서부터 n개를 순서대로 화면에 출력
+// 입력 : 2차원 배열, 크기(행)
+// 출력 : x
+// 오류 : x
+
 void list_titles(const char titles[][41], int n)
 {
     printf("<< 노래 목록 >>\n");
@@ -156,6 +168,12 @@ void list_titles(const char titles[][41], int n)
         printf("%s\n", titles[i]);
     }
 }
+
+// 기능명 : 인덱스 탐색
+// 내용 : 배열에서 key와 완전히 일치하는 제목을 선형 탐색으로 찾아 인덱스 반환
+// 입력 : 2차원 배열(문자열), 크기 행, 찾을 문자열
+// 출력 : 발견한 인덱스(0 이상) / 없으면 -1
+// 오류 : x
 
 int find_index(const char titles[][41], int n, const char* key)
 {

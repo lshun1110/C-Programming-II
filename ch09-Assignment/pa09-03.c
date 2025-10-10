@@ -1,7 +1,7 @@
 /*
 	학번 : 202511227
 	이름 : 이승훈
-	프로그램 명 : c언어 Assignment 과제 3번
+	프로그램 명 : c언어 ch-09 Assignment 과제 3번
 	날짜 : 2025.09.24
 */
 
@@ -32,6 +32,12 @@ void Assignment0903()
 	trans_str(str);
 	fputs(str, stdout);
 }
+
+// 기능명 : 문자 변환 함수
+// 내용 : 문자열을 입력받은뒤 대문자는 소문자로, 소문자는 대문자로 변환함
+// 입력 : 문자열
+// 출력 : x
+// 오류 : x
 
 void trans_str(char * str)
 {
