@@ -1,0 +1,35 @@
+/*
+	학번 : 202511227
+	이름 : 이승훈
+	프로그램 명 : c언어 수업시간 실습
+	날짜 : 2025.10.14
+*/
+
+/*
+	extern 과 static의 활용
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// 함수명 : get_id()
+// 기능 : 1001번부터 차례로 유일한 번호를 증가하며넛 반환하는 기능
+// 입력 : 없음
+// 반환값 : 1001부터 시작해서 1씩 증가하는 유일한 값
+// 오류 : 없음
+
+static int inc_id(int n);
+
+int get_id()
+{
+	static int last_id = 1000;
+
+	last_id = inc_id(last_id);
+
+	return last_id;
+}
+
+static int inc_id(int n)
+{
+	return n + 1;
+}
