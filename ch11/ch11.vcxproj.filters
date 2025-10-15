@@ -21,6 +21,12 @@
     <ClCompile Include="ch11-02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ch11-03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11-04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch11-02.h">
