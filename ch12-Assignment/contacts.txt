@@ -1,0 +1,4 @@
+È«±æµ¿,010-1234-5678,hong@example.com
+±è¿µÈñ,010-9876-5432,younghee@mail.com
+John Doe,02-123-4567,john.doe@company.co.kr
+¹Ú¹Î¼ö,010-7777-8888,minsu.p@naver.com
